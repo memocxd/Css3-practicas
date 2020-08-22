@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/*h1 [title] {
+    background-color: aquamarine
+}*/
+[title="Etiqueta1"] {
+    background-color: aqua;
+}
+[title="Etiqueta2"] {
+    background-color: #1150dd;
+}
+[title="Etiqueta3"] {
+    background-color: #e242ff;
+}
+[data-parrafo] {
+    background-color: bisque;
+}
+
+h3[title^="con"] {
+    background-color: forestgreen;
+    color: white;
+    padding: 10px;
+} 
+h3[title$="n4"] {
+    background-color: firebrick;
+}
+h3[title*=contiene] {
+    background-color: dodgerblue;
+    font-size: 50px
+}
+
+

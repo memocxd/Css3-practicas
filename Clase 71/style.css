@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.degradado {
+    width: 400px;
+    height: 200px;
+    margin: 100px auto;
+    background: linear-gradient(yellow, black);
+}
+.uno {
+    width: 400px;
+    height: 200px;
+    margin: 100px auto;
+    background: linear-gradient(to left, rgb(0, 255, 157), #dd0b0b);
+}
+.dos {
+    width: 400px;
+    height: 200px;
+    margin: 100px auto;
+    background: linear-gradient(to top, #e200ff, black);
+}
+.tres {
+    width: 400px;
+    height: 200px;
+    margin: 100px auto;
+    background: linear-gradient(to top right, #00f5ff, #6a22b2, rgb(255, 0, 69));
+}
+.cuatro {
+    width: 400px;
+    height: 200px;
+    margin: 100px auto;
+    background: linear-gradient(#00f5ff, black, #c219d0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

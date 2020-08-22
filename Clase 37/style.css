@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#nav {
+    height: 50px;
+    background-color: aquamarine;
+}
+#slider {
+    height: 150px;
+    background-color: aqua
+}
+#servicios {
+    height: 120px;
+    background-color: #d2a1ff
+}
+#pie {
+    height: 50px;
+    background-color: bisque;
+}
+.serv1 {
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+

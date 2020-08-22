@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 20px;
+    text-align: center
+}
+.texto {
+    height: 200px;
+    width: 75%;
+    border: 1px solid black;
+    overflow: auto;
+}
+
+.texto::-webkit-scrollbar {
+    width: 10px;
+}
+.texto::-webkit-scrollbar-track {
+    background-color: grey;
+}
+.texto::-webkit-scrollbar-thumb {
+    background-color: red;
+}
+.texto::-webkit-scrollbar-track:hover {
+    background-color: #9508fd;
+}
+.texto::-webkit-scrollbar-thumb:active {
+    background-color: #00ffa7;
+}
+.texto::-webkit-scrollbar-button:vertical:decrement {
+    background-color: greenyellow;
+}
+.texto::-webkit-scrollbar-button:vertical:increment {
+    background-color: #00ebff;
+}

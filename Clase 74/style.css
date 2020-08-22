@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: brown;
+}
+article {
+    margin: 50px;
+    padding: 15px;
+    background-color: cornsilk;
+/*    column-count: 3;*/
+    column-gap: 30px;
+/*    column-rule-width: 6px;
+    column-rule-style: dotted;
+    column-rule-color: #ff00ba;*/
+    column-rule: 6px dotted #e200ff;
+    columns: 3 260px;
+}
+img {
+    margin: 15px 0;
+    max-width: 100%;
+}
+p {
+    margin: 10px 0;
+    font-size: 25px;
+}
+h1 {
+    column-span: all;
+    text-align: center;
+    font-size: 40px
+}
+
+
+
+
+

@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1::before {
+    content: "Esto es la etiqueta ";
+    color: #27a3a3;
+}
+h1::after {
+    content: ".";
+    font-size: 100px
+}
+p::selection {
+    color: chocolate;
+    background-color: #fff500;
+/*    text-shadow: 1px 1px black;*/
+}
+h3::selection {
+    background-color: deeppink;
+    color: white;
+}
+
+
+

@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.otro-contenido > p {
+    background-color: aquamarine;
+    padding: 5px;
+    margin-top: 10px;
+}
+a > strong {
+    color: red;
+    background-color: #72ff7d;
+    padding: 5px;
+}
+p > span {
+    color: brown;
+    font-size: 20px;
+}
+.otro-contenido + p {
+    background-color: crimson;
+    color: white
+}
+.otro-contenido ~ p {
+    background-color: cadetblue;
+    
+}
+
+h3 ~ a {
+    font-size: 40px;
+}
+

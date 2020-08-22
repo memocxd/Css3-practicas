@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: brown;
+    perspective: 800px;
+/*    perspective-origin: 50% 900px;*/
+}
+
+.contenedor {
+    cursor: pointer;
+    width: 250px;
+    height: 250px;
+    margin: 20% auto;
+    position: relative;
+    transition: all 1.5s ease;
+    transform-style: preserve-3d;
+}
+.contenedor div > img {
+    width: 100%;
+}
+.front, .back {
+    position: absolute;
+
+}
+.front {
+    transform: rotatey(180deg)
+}
+.contenedor:hover {
+/*    transform: translate3d(-50px, -50px, 250px);*/
+/*    transform: scale3d(-1,-1,2) translatez(100px);*/
+    transform: rotatey(180deg);
+}
+
+

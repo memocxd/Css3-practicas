@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+article > * {
+    padding: 6px;
+    margin: 2px;
+    border: 1px solid #2665cb;
+}
+article :only-of-type {
+    background-color: aquamarine
+}
+article div:nth-last-of-type(2n+1) {
+    background-color: cadetblue;
+    color: #31ff00;
+    
+}
+
+

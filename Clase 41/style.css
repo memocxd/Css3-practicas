@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+p span:first-child {
+    background-color: aqua;
+}
+p span:last-child {
+    background-color: brown;
+    color: white
+}
+p span:only-child {
+    background-color: aquamarine;
+    font-size: 25px;
+    color: blue;
+}
+/*a:lang(es) {
+    background-color: blueviolet;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}*/
+a {
+    display: block;
+    margin: 9px;
+    text-decoration: none;
+}
+a:link {
+    color: forestgreen;
+    
+}
+a:visited {
+    color: coral;
+}
+a:hover, p:hover {
+    background-color: aquamarine;
+    color: black;
+    padding: 20px;
+    cursor: crosshair;
+}
+a:active {
+    background-color: black;
+    padding: 20px;
+    color: aqua;
+}
+input:focus, textarea:focus {
+    background-color: firebrick;
+    color: white;
+    padding: 20px;
+    text-align: left;
+}
+

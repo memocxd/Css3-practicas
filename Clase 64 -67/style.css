@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 25px;
+}
+div {
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    display: inline-block;
+}
+.key {
+    background-color: chartreuse;
+}
+.hex {
+    background-color: #fff000;
+}
+.rgb {
+    background-color: rgb(231, 131, 255);
+}
+.hsl {
+    background-color: hsl(235, 63%, 51%);
+}
+.rgba {
+    background-color: rgba(23, 228, 255, 0.54);
+}
+.hsla {
+    background-color: hsla(134, 73%, 63%, 0.55);
+}
+
+header {
+    height: 300px;
+    background: rgb(253, 151, 171);
+}
+section {
+    height: 400px;
+}
+.uno {
+    color: white;
+    padding: 15px;
+    background-color: black;
+    background-image: url(../img/gato.jpg);
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-attachment:inherit ;
+    overflow: auto;
+}
+.dos {
+    background: url(../img/gato.jpg) center black repeat fixed;
+    background-size: auto;
+}
+.tres {
+    color: white;
+    padding: 15px;
+    background: url(../img/buda.jpg) center;
+    background-size: 100%  400px;
+    border: 20px dashed blue;
+    background-origin: border-box;
+}
+.cuatro {
+    background: url(../img/buda.jpg) center red no-repeat;
+    background-size: cover;
+    filter: sepia(50%)
+}
+.cinco {
+    background: url(../img/blackhole.jpg) center red;
+    background-size: cover;
+    background-blend-mode: hue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

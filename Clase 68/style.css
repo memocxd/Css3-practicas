@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 10px;
+}
+/* Border RADIUS
+div.uno {
+    height: 300px;
+    width: 300px;
+    background-color: aquamarine;
+    margin: ;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 150px;
+}
+.dos {
+    height: 300px;
+    width: 300px;
+    background-color:#d7fafa;
+    border-radius: 20px 40px 60px 80px;
+    
+}
+.tres {
+    height: 300px;
+    width: 300px;
+    background-color: blueviolet;
+    border-radius: 50%
+}
+*/
+
+
+
+/* BORDER IMAGE <><><><>
+
+.uno {
+    width: 300px;
+    height: 180px;
+    margin: 100px auto;
+    border: 30px solid;
+    border-image-source: url(../img/buda.jpg);
+    border-image-slice: 30;
+    border-image-width: 30px;
+    border-image-repeat: repeat;
+    border-image-outset: 50px
+}*/
+
+.box-shadow {
+    width: 400px;
+    height: 200px;
+    background-color: #e200ff;
+    margin: 100px auto;
+    box-shadow: 10px 5px 7px #6c00bc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+/*    box-sizing: border-box;*/
+}
+/*
+.absolutas {
+    height: 100px;
+    width: 2cm;
+    background-color: aquamarine;
+}
+*/
+html {
+    font-size: 20px;
+}
+.padre {
+    padding: 10px;
+    background-color: aqua;
+}
+.padre p {
+    font-size: 2rem;
+}
+.padre2 {
+    width: 300px;
+    height: 150px;
+    background-color: blueviolet;
+}
+.hijo1 {
+    height: 50px;
+    background-color: forestgreen;
+    width: 50%;
+}
+
+
+
+
+
